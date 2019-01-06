@@ -1,4 +1,4 @@
-web-codeship-example-node:
+codeship-node-js-example:
   build: .
   depends_on:
     - postgres

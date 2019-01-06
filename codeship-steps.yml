@@ -1,7 +1,7 @@
 - type: parallel
   steps:
   - name: tests
-    service: evanglazer-example-node
+    service: codeship-node-js-example
     command: /bin/sh -c "npm install -g jasmine-node npm test -- --forceExit"
 - name: deploy
   tag: staging
