@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Example to run codeship ci on node js projects",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": { "test": "jasmine" },
   "author": "Evan Glazer",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.3.1"
+  }
 }
