@@ -2,7 +2,7 @@
   steps:
   - name: tests
     service: codeship-node-js-example
-    command: /bin/sh -c "npm install -g jasmine-node npm test -- --forceExit"
+    command: /bin/sh -c "npm test -- --forceExit"
 - name: deploy
   tag: staging
   service: codeship-heroku-deployment
